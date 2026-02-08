@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>UFC Main Card Results</title>
+  <style>
+    :root {
+      --bg: #0c1016;
+      --card: #121824;
+      --text: #e6eef7;
+      --muted: #9fb0c4;
+      --border: #1e2a3a;
+      --accent: #ffb347;
+    }
+    body {
+      margin: 0;
+      font-family: "Georgia", "Times New Roman", serif;
+      background: radial-gradient(1200px 800px at 20% -10%, #1a2232 0%, var(--bg) 60%);
+      color: var(--text);
+      padding: 24px;
+      display: flex;
+      justify-content: center;
+    }
+    .container {
+      width: min(900px, 94vw);
+    }
+    h1 {
+      margin: 0 0 16px 0;
+      font-size: 28px;
+      letter-spacing: 0.5px;
+    }
+    details {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      margin: 12px 0;
+      padding: 10px 14px;
+    }
+    summary {
+      cursor: pointer;
+      font-weight: 700;
+      list-style: none;
+      color: var(--accent);
+    }
+    summary::-webkit-details-marker {
+      display: none;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 12px;
+      font-family: "Trebuchet MS", "Verdana", sans-serif;
+      font-size: 14px;
+    }
+    th, td {
+      padding: 12px 8px;
+      border-bottom: 1px solid var(--border);
+      text-align: left;
+    }
+    th {
+      color: var(--muted);
+      font-weight: 600;
+      text-transform: uppercase;
+      font-size: 12px;
+      letter-spacing: 0.06em;
+    }
+    tr:hover td {
+      background: rgba(255, 255, 255, 0.03);
+    }
+    .hint {
+      color: var(--muted);
+      font-size: 13px;
+      margin-bottom: 12px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>UFC Main Card Results</h1>
+    <details><summary>UFC 325: Volkanovski vs. Lopes 2 — Jan 31</summary><table><thead><tr><th>#</th><th>Weightclass</th><th>Red corner</th><th>Blue corner</th><th>How ended</th><th>Time</th></tr></thead><tbody><tr><td>1</td><td>Featherweight (145 lbs) - Main Event - Title Fight</td><td>Alexander Volkanovski</td><td>Diego Lopes</td><td>U Dec</td><td>R5, 5:00</td></tr><tr><td>2</td><td>Lightweight (155 lbs)</td><td>Dan Hooker</td><td>Benoît Saint Denis</td><td>KO/TKO</td><td>R2, 4:45</td></tr><tr><td>3</td><td>Lightweight (155 lbs)</td><td>Rafael Fiziev</td><td>Mauricio Ruffy</td><td>KO/TKO</td><td>R2, 4:30</td></tr><tr><td>4</td><td>Heavyweight (265 lbs)</td><td>Tai Tuivasa</td><td>Tallison Teixeira</td><td>U Dec</td><td>R3, 5:00</td></tr><tr><td>5</td><td>Lightweight (155 lbs)</td><td>Quillan Salkilld</td><td>Jamie Mullarkey</td><td>Sub</td><td>R1, 3:02</td></tr></tbody></table></details><details><summary>UFC 324: Gaethje vs. Pimblett — Jan 24</summary><table><thead><tr><th>#</th><th>Weightclass</th><th>Red corner</th><th>Blue corner</th><th>How ended</th><th>Time</th></tr></thead><tbody><tr><td>1</td><td>Lightweight (155 lbs) - Main Event - Title Fight</td><td>Justin Gaethje</td><td>Paddy Pimblett</td><td>U Dec</td><td>R5, 5:00</td></tr><tr><td>2</td><td>Bantamweight (135 lbs)</td><td>Sean O&#x27;Malley</td><td>Song Yadong</td><td>U Dec</td><td>R3, 5:00</td></tr><tr><td>3</td><td>Heavyweight (265 lbs)</td><td>Waldo Cortes-Acosta</td><td>Derrick Lewis</td><td>KO/TKO</td><td>R2, 3:14</td></tr><tr><td>4</td><td>Women&#x27;s Flyweight (125 lbs)</td><td>Natalia Silva</td><td>Rose Namajunas</td><td>U Dec</td><td>R3, 5:00</td></tr><tr><td>5</td><td>Featherweight (145 lbs)</td><td>Arnold Allen</td><td>Jean Silva</td><td>U Dec</td><td>R3, 5:00</td></tr></tbody></table></details>
+  </div>
+</body>
+</html>

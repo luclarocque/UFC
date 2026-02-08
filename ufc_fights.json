@@ -1,0 +1,94 @@
+[
+  {
+    "Event": "UFC 325: Volkanovski vs. Lopes 2",
+    "Date": "Jan 31",
+    "Fights": [
+      {
+        "Main card fight number": 1,
+        "Weightclass": "Featherweight (145 lbs) - Main Event - Title Fight",
+        "Red corner fighter": "Alexander Volkanovski",
+        "Blue corner fighter": "Diego Lopes",
+        "How the fight ended": "U Dec",
+        "What time the fight ended": "R5, 5:00"
+      },
+      {
+        "Main card fight number": 2,
+        "Weightclass": "Lightweight (155 lbs)",
+        "Red corner fighter": "Dan Hooker",
+        "Blue corner fighter": "Benoît Saint Denis",
+        "How the fight ended": "KO/TKO",
+        "What time the fight ended": "R2, 4:45"
+      },
+      {
+        "Main card fight number": 3,
+        "Weightclass": "Lightweight (155 lbs)",
+        "Red corner fighter": "Rafael Fiziev",
+        "Blue corner fighter": "Mauricio Ruffy",
+        "How the fight ended": "KO/TKO",
+        "What time the fight ended": "R2, 4:30"
+      },
+      {
+        "Main card fight number": 4,
+        "Weightclass": "Heavyweight (265 lbs)",
+        "Red corner fighter": "Tai Tuivasa",
+        "Blue corner fighter": "Tallison Teixeira",
+        "How the fight ended": "U Dec",
+        "What time the fight ended": "R3, 5:00"
+      },
+      {
+        "Main card fight number": 5,
+        "Weightclass": "Lightweight (155 lbs)",
+        "Red corner fighter": "Quillan Salkilld",
+        "Blue corner fighter": "Jamie Mullarkey",
+        "How the fight ended": "Sub",
+        "What time the fight ended": "R1, 3:02"
+      }
+    ]
+  },
+  {
+    "Event": "UFC 324: Gaethje vs. Pimblett",
+    "Date": "Jan 24",
+    "Fights": [
+      {
+        "Main card fight number": 1,
+        "Weightclass": "Lightweight (155 lbs) - Main Event - Title Fight",
+        "Red corner fighter": "Justin Gaethje",
+        "Blue corner fighter": "Paddy Pimblett",
+        "How the fight ended": "U Dec",
+        "What time the fight ended": "R5, 5:00"
+      },
+      {
+        "Main card fight number": 2,
+        "Weightclass": "Bantamweight (135 lbs)",
+        "Red corner fighter": "Sean O'Malley",
+        "Blue corner fighter": "Song Yadong",
+        "How the fight ended": "U Dec",
+        "What time the fight ended": "R3, 5:00"
+      },
+      {
+        "Main card fight number": 3,
+        "Weightclass": "Heavyweight (265 lbs)",
+        "Red corner fighter": "Waldo Cortes-Acosta",
+        "Blue corner fighter": "Derrick Lewis",
+        "How the fight ended": "KO/TKO",
+        "What time the fight ended": "R2, 3:14"
+      },
+      {
+        "Main card fight number": 4,
+        "Weightclass": "Women's Flyweight (125 lbs)",
+        "Red corner fighter": "Natalia Silva",
+        "Blue corner fighter": "Rose Namajunas",
+        "How the fight ended": "U Dec",
+        "What time the fight ended": "R3, 5:00"
+      },
+      {
+        "Main card fight number": 5,
+        "Weightclass": "Featherweight (145 lbs)",
+        "Red corner fighter": "Arnold Allen",
+        "Blue corner fighter": "Jean Silva",
+        "How the fight ended": "U Dec",
+        "What time the fight ended": "R3, 5:00"
+      }
+    ]
+  }
+]
