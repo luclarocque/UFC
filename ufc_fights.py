@@ -8,6 +8,9 @@ import requests
 from bs4 import BeautifulSoup
 
 SCHEDULE_URL = "https://www.espn.com/mma/schedule/_/league/ufc"
+CACHE_PATH = Path.cwd() / ".ufc_fights_cache.json"
+OUTPUT_JSON = Path.cwd() / "ufc_fights.json"
+OUTPUT_HTML = Path.cwd() / "ufc_fights.html"
 
 EVENT_TITLE_RE = re.compile(r"^UFC \d{3}\b")
 WEIGHT_LIMITS = {
@@ -56,18 +59,14 @@ def parse_event_links(schedule_html):
         table = past_results.find_parent()
     links = []
     for row in table.select("tbody tr"):
-        cells = [c.get_text(" ", strip=True) for c in row.find_all(["td", "th"])]
-        date_text = cells[0] if cells else None
-        event_link = None
-        event_title = None
-        for a in row.find_all("a", href=True):
-            title = a.get_text(strip=True)
-            if EVENT_TITLE_RE.match(title):
-                event_link = "https://www.espn.com" + a["href"]
-                event_title = title
-                break
-        if event_link and event_title:
-            links.append((event_link, event_title, date_text))
+        date_cell = row.select_one("td.date__col")
+        event_cell = row.select_one("td.event__col")
+        event_link = event_cell.find("a", href=True) if event_cell else None
+        if not event_cell or not event_link:
+            continue
+        title = event_link.get_text(" ", strip=True)
+        date_text = date_cell.get_text(" ", strip=True) if date_cell else None
+        links.append(("https://www.espn.com" + event_link["href"], title, date_text))
     return links
 
 
@@ -263,12 +262,36 @@ def load_cache(path):
         data = json.loads(path.read_text(encoding="utf-8"))
     except (json.JSONDecodeError, OSError):
         return {}
+
     cache = {}
-    for event in data:
-        key = cache_key(event.get("Event"), event.get("Date"))
-        if key:
-            cache[key] = event
+    if isinstance(data, dict):
+        events = data.get("events", {})
+        if isinstance(events, dict):
+            for url, event in events.items():
+                if isinstance(event, dict):
+                    cache[url] = event
+        return cache
+
+    if isinstance(data, list):
+        for event in data:
+            if not isinstance(event, dict):
+                continue
+            key = cache_key(event.get("Event"), event.get("Date"))
+            if key:
+                cache[key] = event
     return cache
+
+
+def save_cache(path, cache):
+    payload = {"version": 1, "events": cache}
+    path.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
+
+
+def get_cached_event(cache, url, title, date_text):
+    cached = cache.get(url)
+    if cached:
+        return cached
+    return cache.get(cache_key(title, date_text))
 
 
 def main():
@@ -288,18 +311,31 @@ def main():
     schedule_html = fetch(SCHEDULE_URL)
     event_links = parse_event_links(schedule_html)
 
-    out_json = Path.cwd() / "ufc_fights.json"
-    cache = {} if args.refresh else load_cache(out_json)
+    cache = {} if args.refresh else load_cache(CACHE_PATH)
+    legacy_cache = {} if args.refresh else load_cache(OUTPUT_JSON)
+    if legacy_cache:
+        for key, event in legacy_cache.items():
+            cache.setdefault(key, event)
 
     results = []
     for url, title, date_text in event_links:
-        key = cache_key(title, date_text)
-        cached = cache.get(key)
+        cached = get_cached_event(cache, url, title, date_text)
         if cached and cached.get("Fights"):
             fights = cached.get("Fights")
+            cache[url] = {
+                "Event": title,
+                "Date": date_text,
+                "Fights": fights,
+            }
         else:
             event_html = fetch(url)
             fights = parse_main_card(event_html)
+            if fights:
+                cache[url] = {
+                    "Event": title,
+                    "Date": date_text,
+                    "Fights": fights,
+                }
         results.append(
             {
                 "Event": title,
@@ -308,13 +344,14 @@ def main():
             }
         )
 
+    save_cache(CACHE_PATH, cache)
+
     if args.html:
-        out_html = Path.cwd() / "ufc_fights.html"
-        out_json.write_text(
+        OUTPUT_JSON.write_text(
             json.dumps(results, indent=2, ensure_ascii=False), encoding="utf-8"
         )
-        out_html.write_text(render_html(results), encoding="utf-8")
-        webbrowser.open(out_html.resolve().as_uri(), new=2)
+        OUTPUT_HTML.write_text(render_html(results), encoding="utf-8")
+        webbrowser.open(OUTPUT_HTML.resolve().as_uri(), new=2)
         return
 
     print(json.dumps(results, indent=2, ensure_ascii=False))

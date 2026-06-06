@@ -4,6 +4,7 @@ Scrapes UFC past results from ESPN, extracts main-card fights, and produces:
 
 - `ufc_fights.json` with event + fight details
 - `ufc_fights.html` with collapsible event cards for easy viewing
+- `.ufc_fights_cache.json` to reuse already-fetched events and speed up future runs
 
 ## Quick Start
 
@@ -12,6 +13,8 @@ python ufc_fights.py --html
 ```
 
 This writes `ufc_fights.json` and `ufc_fights.html`, then opens the HTML in your default browser.
+
+The scraper keeps a local cache of event pages it has already fetched, so repeat runs only download new UFC events. Use `--refresh` if you want to ignore the cache and re-fetch everything.
 
 ## Desktop Shortcut (Windows)
 

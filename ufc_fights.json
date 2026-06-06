@@ -1,5 +1,783 @@
 [
   {
+    "Event": "UFC Fight Night: Song vs. Figueiredo",
+    "Date": "May 30",
+    "Fights": [
+      {
+        "Main card fight number": 1,
+        "Weightclass": "Bantamweight (135 lbs) - Main Event",
+        "Red corner fighter": "Song Yadong",
+        "Blue corner fighter": "Deiveson Figueiredo",
+        "How the fight ended": "Sub",
+        "What time the fight ended": "R2, 4:42"
+      },
+      {
+        "Main card fight number": 2,
+        "Weightclass": "Light Heavyweight (205 lbs)",
+        "Red corner fighter": "Zhang Mingyang",
+        "Blue corner fighter": "Alonzo Menifield",
+        "How the fight ended": "KO/TKO",
+        "What time the fight ended": "R1, 4:15"
+      },
+      {
+        "Main card fight number": 3,
+        "Weightclass": "Heavyweight (265 lbs)",
+        "Red corner fighter": "Sergei Pavlovich",
+        "Blue corner fighter": "Tallison Teixeira",
+        "How the fight ended": "KO/TKO",
+        "What time the fight ended": "R1, 0:39"
+      },
+      {
+        "Main card fight number": 4,
+        "Weightclass": "Bantamweight (135 lbs)",
+        "Red corner fighter": "Kai Asakura",
+        "Blue corner fighter": "Cameron Smotherman",
+        "How the fight ended": "KO/TKO",
+        "What time the fight ended": "R1, 1:50"
+      },
+      {
+        "Main card fight number": 5,
+        "Weightclass": "Welterweight (170 lbs)",
+        "Red corner fighter": "Jake Matthews",
+        "Blue corner fighter": "Carlston Harris",
+        "How the fight ended": "U Dec",
+        "What time the fight ended": "R3, 5:00"
+      },
+      {
+        "Main card fight number": 6,
+        "Weightclass": "Flyweight (125 lbs)",
+        "Red corner fighter": "Alex Perez",
+        "Blue corner fighter": "Sumudaerji",
+        "How the fight ended": "No Contest",
+        "What time the fight ended": "R2, 1:45"
+      }
+    ]
+  },
+  {
+    "Event": "UFC Fight Night: Allen vs. Costa",
+    "Date": "May 16",
+    "Fights": [
+      {
+        "Main card fight number": 1,
+        "Weightclass": "Featherweight (145 lbs) - Main Event",
+        "Red corner fighter": "Arnold Allen",
+        "Blue corner fighter": "Melquizael Costa",
+        "How the fight ended": "U Dec",
+        "What time the fight ended": "R5, 5:00"
+      },
+      {
+        "Main card fight number": 2,
+        "Weightclass": "Featherweight (145 lbs)",
+        "Red corner fighter": "Dooho Choi",
+        "Blue corner fighter": "Daniel Santos",
+        "How the fight ended": "KO/TKO",
+        "What time the fight ended": "R2, 4:29"
+      },
+      {
+        "Main card fight number": 3,
+        "Weightclass": "Bantamweight (135 lbs)",
+        "Red corner fighter": "Malcolm Wellmaker",
+        "Blue corner fighter": "Juan Diaz",
+        "How the fight ended": "Sub",
+        "What time the fight ended": "R2, 4:08"
+      },
+      {
+        "Main card fight number": 4,
+        "Weightclass": "Catch Weight",
+        "Red corner fighter": "Modestas Bukauskas",
+        "Blue corner fighter": "Christian Edwards",
+        "How the fight ended": "S Dec",
+        "What time the fight ended": "R3, 5:00"
+      },
+      {
+        "Main card fight number": 5,
+        "Weightclass": "Bantamweight (135 lbs)",
+        "Red corner fighter": "Timmy Cuamba",
+        "Blue corner fighter": "Bernardo Sopaj",
+        "How the fight ended": "Sub",
+        "What time the fight ended": "R2, 2:25"
+      },
+      {
+        "Main card fight number": 6,
+        "Weightclass": "Welterweight (170 lbs)",
+        "Red corner fighter": "Nikolay Veretennikov",
+        "Blue corner fighter": "Khaos Williams",
+        "How the fight ended": "KO/TKO",
+        "What time the fight ended": "R1, 3:31"
+      }
+    ]
+  },
+  {
+    "Event": "UFC 328: Chimaev vs. Strickland",
+    "Date": "May 9",
+    "Fights": [
+      {
+        "Main card fight number": 1,
+        "Weightclass": "Middleweight (185 lbs) - Main Event - Title Fight",
+        "Red corner fighter": "Khamzat Chimaev",
+        "Blue corner fighter": "Sean Strickland",
+        "How the fight ended": "S Dec",
+        "What time the fight ended": "R5, 5:00"
+      },
+      {
+        "Main card fight number": 2,
+        "Weightclass": "Flyweight (125 lbs) - Title Fight",
+        "Red corner fighter": "Joshua Van",
+        "Blue corner fighter": "Tatsuro Taira",
+        "How the fight ended": "KO/TKO",
+        "What time the fight ended": "R5, 1:32"
+      },
+      {
+        "Main card fight number": 3,
+        "Weightclass": "Heavyweight (265 lbs)",
+        "Red corner fighter": "Alexander Volkov",
+        "Blue corner fighter": "Waldo Cortes Acosta",
+        "How the fight ended": "U Dec",
+        "What time the fight ended": "R3, 5:00"
+      },
+      {
+        "Main card fight number": 4,
+        "Weightclass": "Welterweight (170 lbs)",
+        "Red corner fighter": "Sean Brady",
+        "Blue corner fighter": "Joaquin Buckley",
+        "How the fight ended": "U Dec",
+        "What time the fight ended": "R3, 5:00"
+      },
+      {
+        "Main card fight number": 5,
+        "Weightclass": "Lightweight (155 lbs)",
+        "Red corner fighter": "King Green",
+        "Blue corner fighter": "Jeremy Stephens",
+        "How the fight ended": "Sub",
+        "What time the fight ended": "R1, 4:20"
+      }
+    ]
+  },
+  {
+    "Event": "UFC Fight Night: Della Maddalena vs. Prates",
+    "Date": "May 2",
+    "Fights": [
+      {
+        "Main card fight number": 1,
+        "Weightclass": "Welterweight (170 lbs) - Main Event",
+        "Red corner fighter": "Jack Della Maddalena",
+        "Blue corner fighter": "Carlos Prates",
+        "How the fight ended": "KO/TKO",
+        "What time the fight ended": "R3, 3:17"
+      },
+      {
+        "Main card fight number": 2,
+        "Weightclass": "Lightweight (155 lbs)",
+        "Red corner fighter": "Beneil Dariush",
+        "Blue corner fighter": "Quillan Salkilld",
+        "How the fight ended": "KO/TKO",
+        "What time the fight ended": "R1, 3:29"
+      },
+      {
+        "Main card fight number": 3,
+        "Weightclass": "Flyweight (125 lbs)",
+        "Red corner fighter": "Tim Elliott",
+        "Blue corner fighter": "Steve Erceg",
+        "How the fight ended": "U Dec",
+        "What time the fight ended": "R3, 5:00"
+      },
+      {
+        "Main card fight number": 4,
+        "Weightclass": "Featherweight (145 lbs)",
+        "Red corner fighter": "Marwan Rahiki",
+        "Blue corner fighter": "Ollie Schmid",
+        "How the fight ended": "KO/TKO",
+        "What time the fight ended": "R1, 2:47"
+      },
+      {
+        "Main card fight number": 5,
+        "Weightclass": "Heavyweight (265 lbs)",
+        "Red corner fighter": "Shamil Gaziev",
+        "Blue corner fighter": "Brando Peričić",
+        "How the fight ended": "KO/TKO",
+        "What time the fight ended": "R2, 3:44"
+      },
+      {
+        "Main card fight number": 6,
+        "Weightclass": "Heavyweight (265 lbs)",
+        "Red corner fighter": "Tai Tuivasa",
+        "Blue corner fighter": "Louie Sutherland",
+        "How the fight ended": "U Dec",
+        "What time the fight ended": "R3, 5:00"
+      }
+    ]
+  },
+  {
+    "Event": "UFC Fight Night: Sterling vs. Zalal",
+    "Date": "Apr 25",
+    "Fights": [
+      {
+        "Main card fight number": 1,
+        "Weightclass": "Featherweight (145 lbs) - Main Event",
+        "Red corner fighter": "Aljamain Sterling",
+        "Blue corner fighter": "Youssef Zalal",
+        "How the fight ended": "U Dec",
+        "What time the fight ended": "R5, 5:00"
+      },
+      {
+        "Main card fight number": 2,
+        "Weightclass": "Women's Bantamweight (135 lbs)",
+        "Red corner fighter": "Norma Dumont",
+        "Blue corner fighter": "Joselyne Edwards",
+        "How the fight ended": "U Dec",
+        "What time the fight ended": "R3, 5:00"
+      },
+      {
+        "Main card fight number": 3,
+        "Weightclass": "Lightweight (155 lbs)",
+        "Red corner fighter": "Rafa Garcia",
+        "Blue corner fighter": "Alexander Hernandez",
+        "How the fight ended": "U Dec",
+        "What time the fight ended": "R3, 5:00"
+      },
+      {
+        "Main card fight number": 4,
+        "Weightclass": "Bantamweight (135 lbs)",
+        "Red corner fighter": "Davey Grant",
+        "Blue corner fighter": "Adrian Luna Martinetti",
+        "How the fight ended": "U Dec",
+        "What time the fight ended": "R3, 5:00"
+      },
+      {
+        "Main card fight number": 5,
+        "Weightclass": "Bantamweight (135 lbs)",
+        "Red corner fighter": "Montel Jackson",
+        "Blue corner fighter": "Raoni Barcelos",
+        "How the fight ended": "S Dec",
+        "What time the fight ended": "R3, 5:00"
+      },
+      {
+        "Main card fight number": 6,
+        "Weightclass": "Heavyweight (265 lbs)",
+        "Red corner fighter": "Marcus Buchecha",
+        "Blue corner fighter": "Ryan Spann",
+        "How the fight ended": "KO/TKO",
+        "What time the fight ended": "R2, 2:10"
+      }
+    ]
+  },
+  {
+    "Event": "UFC Fight Night: Burns vs. Malott",
+    "Date": "Apr 18",
+    "Fights": [
+      {
+        "Main card fight number": 1,
+        "Weightclass": "Welterweight (170 lbs) - Main Event",
+        "Red corner fighter": "Gilbert Burns",
+        "Blue corner fighter": "Mike Malott",
+        "How the fight ended": "KO/TKO",
+        "What time the fight ended": "R3, 2:08"
+      },
+      {
+        "Main card fight number": 2,
+        "Weightclass": "Bantamweight (135 lbs)",
+        "Red corner fighter": "Kyler Phillips",
+        "Blue corner fighter": "Charles Jourdain",
+        "How the fight ended": "U Dec",
+        "What time the fight ended": "R3, 5:00"
+      },
+      {
+        "Main card fight number": 3,
+        "Weightclass": "Lightweight (155 lbs)",
+        "Red corner fighter": "Mandel Nallo",
+        "Blue corner fighter": "Jai Herbert",
+        "How the fight ended": "KO/TKO",
+        "What time the fight ended": "R1, 2:05"
+      },
+      {
+        "Main card fight number": 4,
+        "Weightclass": "Women's Flyweight (125 lbs)",
+        "Red corner fighter": "Jasmine Jasudavicius",
+        "Blue corner fighter": "Karine Silva",
+        "How the fight ended": "U Dec",
+        "What time the fight ended": "R3, 5:00"
+      },
+      {
+        "Main card fight number": 5,
+        "Weightclass": "Lightweight (155 lbs)",
+        "Red corner fighter": "Thiago Moisés",
+        "Blue corner fighter": "Gauge Young",
+        "How the fight ended": "S Dec",
+        "What time the fight ended": "R3, 5:00"
+      }
+    ]
+  },
+  {
+    "Event": "UFC 327: Procházka vs. Ulberg",
+    "Date": "Apr 11",
+    "Fights": [
+      {
+        "Main card fight number": 1,
+        "Weightclass": "Light Heavyweight (205 lbs) - Main Event - Title Fight",
+        "Red corner fighter": "Jiří Procházka",
+        "Blue corner fighter": "Carlos Ulberg",
+        "How the fight ended": "KO/TKO",
+        "What time the fight ended": "R1, 3:45"
+      },
+      {
+        "Main card fight number": 2,
+        "Weightclass": "Light Heavyweight (205 lbs)",
+        "Red corner fighter": "Azamat Murzakanov",
+        "Blue corner fighter": "Paulo Costa",
+        "How the fight ended": "KO/TKO",
+        "What time the fight ended": "R3, 1:23"
+      },
+      {
+        "Main card fight number": 3,
+        "Weightclass": "Heavyweight (265 lbs)",
+        "Red corner fighter": "Curtis Blaydes",
+        "Blue corner fighter": "Josh Hokit",
+        "How the fight ended": "U Dec",
+        "What time the fight ended": "R3, 5:00"
+      },
+      {
+        "Main card fight number": 4,
+        "Weightclass": "Light Heavyweight (205 lbs)",
+        "Red corner fighter": "Dominick Reyes",
+        "Blue corner fighter": "Johnny Walker",
+        "How the fight ended": "S Dec",
+        "What time the fight ended": "R3, 5:00"
+      },
+      {
+        "Main card fight number": 5,
+        "Weightclass": "Featherweight (145 lbs)",
+        "Red corner fighter": "Cub Swanson",
+        "Blue corner fighter": "Nate Landwehr",
+        "How the fight ended": "KO/TKO",
+        "What time the fight ended": "R1, 4:06"
+      }
+    ]
+  },
+  {
+    "Event": "UFC Fight Night: Moicano vs. Duncan",
+    "Date": "Apr 4",
+    "Fights": [
+      {
+        "Main card fight number": 1,
+        "Weightclass": "Lightweight (155 lbs) - Main Event",
+        "Red corner fighter": "Renato Moicano",
+        "Blue corner fighter": "Chris Duncan",
+        "How the fight ended": "Sub",
+        "What time the fight ended": "R2, 3:14"
+      },
+      {
+        "Main card fight number": 2,
+        "Weightclass": "Women's Strawweight (115 lbs)",
+        "Red corner fighter": "Virna Jandiroba",
+        "Blue corner fighter": "Tabatha Ricci",
+        "How the fight ended": "U Dec",
+        "What time the fight ended": "R3, 5:00"
+      },
+      {
+        "Main card fight number": 3,
+        "Weightclass": "Light Heavyweight (205 lbs)",
+        "Red corner fighter": "Abdul-Rakhman Yakhyaev",
+        "Blue corner fighter": "Brendson Ribeiro",
+        "How the fight ended": "Sub",
+        "What time the fight ended": "R1, 2:52"
+      },
+      {
+        "Main card fight number": 4,
+        "Weightclass": "Bantamweight (135 lbs)",
+        "Red corner fighter": "Ethyn Ewing",
+        "Blue corner fighter": "Rafael Estevam",
+        "How the fight ended": "KO/TKO",
+        "What time the fight ended": "R3, 1:44"
+      },
+      {
+        "Main card fight number": 5,
+        "Weightclass": "Featherweight (145 lbs)",
+        "Red corner fighter": "Tommy McMillen",
+        "Blue corner fighter": "Manolo Zecchini",
+        "How the fight ended": "KO/TKO",
+        "What time the fight ended": "R1, 3:57"
+      },
+      {
+        "Main card fight number": 6,
+        "Weightclass": "Featherweight (145 lbs)",
+        "Red corner fighter": "Jose Delano",
+        "Blue corner fighter": "Robert Ruchała",
+        "How the fight ended": "U Dec",
+        "What time the fight ended": "R3, 5:00"
+      }
+    ]
+  },
+  {
+    "Event": "UFC Fight Night: Adesanya vs. Pyfer",
+    "Date": "Mar 28",
+    "Fights": [
+      {
+        "Main card fight number": 1,
+        "Weightclass": "Middleweight (185 lbs) - Main Event",
+        "Red corner fighter": "Israel Adesanya",
+        "Blue corner fighter": "Joe Pyfer",
+        "How the fight ended": "KO/TKO",
+        "What time the fight ended": "R2, 4:18"
+      },
+      {
+        "Main card fight number": 2,
+        "Weightclass": "Women's Flyweight (125 lbs)",
+        "Red corner fighter": "Alexa Grasso",
+        "Blue corner fighter": "Maycee Barber",
+        "How the fight ended": "KO/TKO",
+        "What time the fight ended": "R1, 2:42"
+      },
+      {
+        "Main card fight number": 3,
+        "Weightclass": "Welterweight (170 lbs)",
+        "Red corner fighter": "Michael Chiesa",
+        "Blue corner fighter": "Niko Price",
+        "How the fight ended": "Sub",
+        "What time the fight ended": "R1, 1:03"
+      },
+      {
+        "Main card fight number": 4,
+        "Weightclass": "Featherweight (145 lbs)",
+        "Red corner fighter": "Julian Erosa",
+        "Blue corner fighter": "Lerryan Douglas",
+        "How the fight ended": "KO/TKO",
+        "What time the fight ended": "R1, 3:33"
+      },
+      {
+        "Main card fight number": 5,
+        "Weightclass": "Middleweight (185 lbs)",
+        "Red corner fighter": "Mansur Abdul-Malik",
+        "Blue corner fighter": "Yousri Belgaroui",
+        "How the fight ended": "KO/TKO",
+        "What time the fight ended": "R3, 3:39"
+      },
+      {
+        "Main card fight number": 6,
+        "Weightclass": "Lightweight (155 lbs)",
+        "Red corner fighter": "Terrance McKinney",
+        "Blue corner fighter": "Kyle Nelson",
+        "How the fight ended": "KO/TKO",
+        "What time the fight ended": "R1, 0:24"
+      }
+    ]
+  },
+  {
+    "Event": "UFC Fight Night: Evloev vs. Murphy",
+    "Date": "Mar 21",
+    "Fights": [
+      {
+        "Main card fight number": 1,
+        "Weightclass": "Featherweight (145 lbs) - Main Event",
+        "Red corner fighter": "Movsar Evloev",
+        "Blue corner fighter": "Lerone Murphy",
+        "How the fight ended": "M Dec",
+        "What time the fight ended": "R5, 5:00"
+      },
+      {
+        "Main card fight number": 2,
+        "Weightclass": "Featherweight (145 lbs)",
+        "Red corner fighter": "Luke Riley",
+        "Blue corner fighter": "Michael Aswell",
+        "How the fight ended": "U Dec",
+        "What time the fight ended": "R3, 5:00"
+      },
+      {
+        "Main card fight number": 3,
+        "Weightclass": "Welterweight (170 lbs)",
+        "Red corner fighter": "Michael Page",
+        "Blue corner fighter": "Sam Patterson",
+        "How the fight ended": "U Dec",
+        "What time the fight ended": "R3, 5:00"
+      },
+      {
+        "Main card fight number": 4,
+        "Weightclass": "Light Heavyweight (205 lbs)",
+        "Red corner fighter": "Iwo Baraniewski",
+        "Blue corner fighter": "Austen Lane",
+        "How the fight ended": "KO/TKO",
+        "What time the fight ended": "R1, 0:28"
+      },
+      {
+        "Main card fight number": 5,
+        "Weightclass": "Middleweight (185 lbs)",
+        "Red corner fighter": "Roman Dolidze",
+        "Blue corner fighter": "Christian Leroy Duncan",
+        "How the fight ended": "U Dec",
+        "What time the fight ended": "R3, 5:00"
+      },
+      {
+        "Main card fight number": 6,
+        "Weightclass": "Featherweight (145 lbs)",
+        "Red corner fighter": "Kurtis Campbell",
+        "Blue corner fighter": "Danny Silva",
+        "How the fight ended": "KO/TKO",
+        "What time the fight ended": "R2, 0:31"
+      }
+    ]
+  },
+  {
+    "Event": "UFC Fight Night: Emmett vs. Vallejos",
+    "Date": "Mar 14",
+    "Fights": [
+      {
+        "Main card fight number": 1,
+        "Weightclass": "Featherweight (145 lbs) - Main Event",
+        "Red corner fighter": "Josh Emmett",
+        "Blue corner fighter": "Kevin Vallejos",
+        "How the fight ended": "KO/TKO",
+        "What time the fight ended": "R1, 3:33"
+      },
+      {
+        "Main card fight number": 2,
+        "Weightclass": "Women's Strawweight (115 lbs)",
+        "Red corner fighter": "Amanda Lemos",
+        "Blue corner fighter": "Gillian Robertson",
+        "How the fight ended": "U Dec",
+        "What time the fight ended": "R3, 5:00"
+      },
+      {
+        "Main card fight number": 3,
+        "Weightclass": "Featherweight (145 lbs)",
+        "Red corner fighter": "Andre Fili",
+        "Blue corner fighter": "Jose Miguel Delgado",
+        "How the fight ended": "S Dec",
+        "What time the fight ended": "R3, 5:00"
+      },
+      {
+        "Main card fight number": 4,
+        "Weightclass": "Featherweight (145 lbs)",
+        "Red corner fighter": "Marwan Rahiki",
+        "Blue corner fighter": "Harry Hardwick",
+        "How the fight ended": "KO/TKO",
+        "What time the fight ended": "R2, 5:00"
+      },
+      {
+        "Main card fight number": 5,
+        "Weightclass": "Light Heavyweight (205 lbs)",
+        "Red corner fighter": "Ion Cutelaba",
+        "Blue corner fighter": "Oumar Sy",
+        "How the fight ended": "Sub",
+        "What time the fight ended": "R1, 4:24"
+      },
+      {
+        "Main card fight number": 6,
+        "Weightclass": "Flyweight (125 lbs)",
+        "Red corner fighter": "Charles Johnson",
+        "Blue corner fighter": "Bruno Silva",
+        "How the fight ended": "S Dec",
+        "What time the fight ended": "R3, 5:00"
+      }
+    ]
+  },
+  {
+    "Event": "UFC 326: Holloway vs. Oliveira 2",
+    "Date": "Mar 7",
+    "Fights": [
+      {
+        "Main card fight number": 1,
+        "Weightclass": "Lightweight (155 lbs) - Main Event",
+        "Red corner fighter": "Max Holloway",
+        "Blue corner fighter": "Charles Oliveira",
+        "How the fight ended": "U Dec",
+        "What time the fight ended": "R5, 5:00"
+      },
+      {
+        "Main card fight number": 2,
+        "Weightclass": "Middleweight (185 lbs)",
+        "Red corner fighter": "Caio Borralho",
+        "Blue corner fighter": "Reinier de Ridder",
+        "How the fight ended": "U Dec",
+        "What time the fight ended": "R3, 5:00"
+      },
+      {
+        "Main card fight number": 3,
+        "Weightclass": "Bantamweight (135 lbs)",
+        "Red corner fighter": "Rob Font",
+        "Blue corner fighter": "Raul Rosas Jr.",
+        "How the fight ended": "U Dec",
+        "What time the fight ended": "R3, 5:00"
+      },
+      {
+        "Main card fight number": 4,
+        "Weightclass": "Lightweight (155 lbs)",
+        "Red corner fighter": "Drew Dober",
+        "Blue corner fighter": "Michael Johnson",
+        "How the fight ended": "KO/TKO",
+        "What time the fight ended": "R2, 1:53"
+      },
+      {
+        "Main card fight number": 5,
+        "Weightclass": "Middleweight (185 lbs)",
+        "Red corner fighter": "Gregory Rodrigues",
+        "Blue corner fighter": "Brunno Ferreira",
+        "How the fight ended": "KO/TKO",
+        "What time the fight ended": "R1, 1:47"
+      }
+    ]
+  },
+  {
+    "Event": "UFC Fight Night: Moreno vs. Kavanagh",
+    "Date": "Feb 28",
+    "Fights": [
+      {
+        "Main card fight number": 1,
+        "Weightclass": "Flyweight (125 lbs) - Main Event",
+        "Red corner fighter": "Brandon Moreno",
+        "Blue corner fighter": "Lone'er Kavanagh",
+        "How the fight ended": "U Dec",
+        "What time the fight ended": "R5, 5:00"
+      },
+      {
+        "Main card fight number": 2,
+        "Weightclass": "Bantamweight (135 lbs)",
+        "Red corner fighter": "Marlon Vera",
+        "Blue corner fighter": "David Martinez",
+        "How the fight ended": "U Dec",
+        "What time the fight ended": "R3, 5:00"
+      },
+      {
+        "Main card fight number": 3,
+        "Weightclass": "Lightweight (155 lbs)",
+        "Red corner fighter": "Daniel Zellhuber",
+        "Blue corner fighter": "King Green",
+        "How the fight ended": "KO/TKO",
+        "What time the fight ended": "R2, 4:55"
+      },
+      {
+        "Main card fight number": 4,
+        "Weightclass": "Flyweight (125 lbs)",
+        "Red corner fighter": "Édgar Cháirez",
+        "Blue corner fighter": "Felipe Bunes",
+        "How the fight ended": "S Dec",
+        "What time the fight ended": "R3, 5:00"
+      },
+      {
+        "Main card fight number": 5,
+        "Weightclass": "Flyweight (125 lbs)",
+        "Red corner fighter": "Imanol Rodriguez",
+        "Blue corner fighter": "Kevin Borjas",
+        "How the fight ended": "KO/TKO",
+        "What time the fight ended": "R2, 4:21"
+      },
+      {
+        "Main card fight number": 6,
+        "Weightclass": "Bantamweight (135 lbs)",
+        "Red corner fighter": "Santiago Luna",
+        "Blue corner fighter": "Angel Pacheco",
+        "How the fight ended": "U Dec",
+        "What time the fight ended": "R3, 5:00"
+      }
+    ]
+  },
+  {
+    "Event": "UFC Fight Night: Strickland vs. Hernandez",
+    "Date": "Feb 21",
+    "Fights": [
+      {
+        "Main card fight number": 1,
+        "Weightclass": "Middleweight (185 lbs) - Main Event",
+        "Red corner fighter": "Sean Strickland",
+        "Blue corner fighter": "Anthony Hernandez",
+        "How the fight ended": "KO/TKO",
+        "What time the fight ended": "R3, 2:23"
+      },
+      {
+        "Main card fight number": 2,
+        "Weightclass": "Welterweight (170 lbs)",
+        "Red corner fighter": "Geoff Neal",
+        "Blue corner fighter": "Uroš Medić",
+        "How the fight ended": "KO/TKO",
+        "What time the fight ended": "R1, 1:19"
+      },
+      {
+        "Main card fight number": 3,
+        "Weightclass": "Featherweight (145 lbs)",
+        "Red corner fighter": "Dan Ige",
+        "Blue corner fighter": "Melquizael Costa",
+        "How the fight ended": "KO/TKO",
+        "What time the fight ended": "R1, 4:56"
+      },
+      {
+        "Main card fight number": 4,
+        "Weightclass": "Heavyweight (265 lbs)",
+        "Red corner fighter": "Serghei Spivac",
+        "Blue corner fighter": "Ante Delija",
+        "How the fight ended": "U Dec",
+        "What time the fight ended": "R3, 5:00"
+      },
+      {
+        "Main card fight number": 5,
+        "Weightclass": "Welterweight (170 lbs)",
+        "Red corner fighter": "Jacobe Smith",
+        "Blue corner fighter": "Josiah Harrell",
+        "How the fight ended": "KO/TKO",
+        "What time the fight ended": "R1, 3:01"
+      },
+      {
+        "Main card fight number": 6,
+        "Weightclass": "Middleweight (185 lbs)",
+        "Red corner fighter": "Zachary Reese",
+        "Blue corner fighter": "Michel Pereira",
+        "How the fight ended": "S Dec",
+        "What time the fight ended": "R3, 5:00"
+      }
+    ]
+  },
+  {
+    "Event": "UFC Fight Night: Bautista vs. Oliveira",
+    "Date": "Feb 7",
+    "Fights": [
+      {
+        "Main card fight number": 1,
+        "Weightclass": "Bantamweight (135 lbs) - Main Event",
+        "Red corner fighter": "Mario Bautista",
+        "Blue corner fighter": "Vinicius Oliveira",
+        "How the fight ended": "Sub",
+        "What time the fight ended": "R2, 4:46"
+      },
+      {
+        "Main card fight number": 2,
+        "Weightclass": "Flyweight (125 lbs)",
+        "Red corner fighter": "Amir Albazi",
+        "Blue corner fighter": "Kyoji Horiguchi",
+        "How the fight ended": "U Dec",
+        "What time the fight ended": "R3, 5:00"
+      },
+      {
+        "Main card fight number": 3,
+        "Weightclass": "Heavyweight (265 lbs)",
+        "Red corner fighter": "Jailton Almeida",
+        "Blue corner fighter": "Rizvan Kuniev",
+        "How the fight ended": "U Dec",
+        "What time the fight ended": "R3, 5:00"
+      },
+      {
+        "Main card fight number": 4,
+        "Weightclass": "Middleweight (185 lbs)",
+        "Red corner fighter": "Michal Oleksiejczuk",
+        "Blue corner fighter": "Marc-Andre Barriault",
+        "How the fight ended": "U Dec",
+        "What time the fight ended": "R3, 5:00"
+      },
+      {
+        "Main card fight number": 5,
+        "Weightclass": "Bantamweight (135 lbs)",
+        "Red corner fighter": "Jean Matsumoto",
+        "Blue corner fighter": "Farid Basharat",
+        "How the fight ended": "S Dec",
+        "What time the fight ended": "R3, 5:00"
+      },
+      {
+        "Main card fight number": 6,
+        "Weightclass": "Light Heavyweight (205 lbs)",
+        "Red corner fighter": "Dustin Jacoby",
+        "Blue corner fighter": "Julius Walker",
+        "How the fight ended": "KO/TKO",
+        "What time the fight ended": "R2, 1:42"
+      }
+    ]
+  },
+  {
     "Event": "UFC 325: Volkanovski vs. Lopes 2",
     "Date": "Jan 31",
     "Fights": [
@@ -68,7 +846,7 @@
       {
         "Main card fight number": 3,
         "Weightclass": "Heavyweight (265 lbs)",
-        "Red corner fighter": "Waldo Cortes-Acosta",
+        "Red corner fighter": "Waldo Cortes Acosta",
         "Blue corner fighter": "Derrick Lewis",
         "How the fight ended": "KO/TKO",
         "What time the fight ended": "R2, 3:14"

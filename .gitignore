@@ -1,0 +1,3 @@
+.ufc_fights_cache.json
+__pycache__/
+*.pyc
